@@ -1,0 +1,25 @@
+build/# Збірка (найголовніше)
+build/
+bin/
+obj/
+
+# Тимчасові файли CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+install_manifest.txt
+_deps/                # Тут лежить викачаний FTXUI
+
+# Конфіги для LSP (якщо ти зробив сімлінк)
+compile_commands.json
+
+# Neovim / Vim сміття
+*.swp
+*.swo
+.netrwhist
+undo/
+
+# Специфічне для ОС
+.DS_Store
+Thumbs.db
